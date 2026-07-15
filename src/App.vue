@@ -45,7 +45,7 @@ watch(isIntroDone, async (done) => {
 
 <template>
   <main class="container">
-    <WeddingIntro @intro-completed="handleIntroCompleted" />kjhkj
+    <WeddingIntro @intro-completed="handleIntroCompleted" />
     
     <div class="main-content" v-if="isIntroDone">
       <div class="scroll-section"><WeddingCountdown /></div>
