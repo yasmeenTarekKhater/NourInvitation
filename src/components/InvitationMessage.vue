@@ -15,8 +15,8 @@ import { invitationConfig } from '../config/invitation';
         Please join us for a beautiful evening filled with love, happiness, laughter, and lasting memories.
       </p>
       
-      <div class="signature cursive">
-        {{ invitationConfig.couple.displayName }}
+      <div class="signature">
+        {{ invitationConfig.couple.groomName }} <br/> & <br/> {{ invitationConfig.couple.brideName }}
       </div>
       
       <p class="closing">

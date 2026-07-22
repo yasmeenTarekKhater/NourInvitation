@@ -128,7 +128,7 @@ const handleSkip = () => {
   }
   
   .names {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     color: var(--color-gold);
   }
   

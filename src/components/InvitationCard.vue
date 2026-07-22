@@ -76,7 +76,7 @@ defineExpose({ cardRef });
 }
 
 .couple-names {
-  font-size: 2.7rem;
+  font-size: 2.2rem;
   line-height: 1.2;
   color: var(--color-gold);
   display: flex;
