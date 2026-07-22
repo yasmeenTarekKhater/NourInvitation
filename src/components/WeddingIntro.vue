@@ -65,7 +65,7 @@ const handleSkip = () => {
     <div class="intro-content" ref="introContentRef">
       <div class="intro-text" ref="introTextRef" v-if="!isOpened">
         <h2>Open Our Invitation</h2>
-        <p class="names cursive">{{ invitationConfig.couple.displayName }}</p>
+        <p class="names">{{ invitationConfig.couple.displayName }}</p>
         <p class="tap-hint">(Tap the envelope)</p>
       </div>
       

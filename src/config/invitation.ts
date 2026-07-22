@@ -11,7 +11,7 @@ export const invitationConfig = {
     dateTime: "2026-08-14T20:00:00+03:00",
     timezone: "Africa/Cairo",
     formattedDate: "Friday, August 14, 2026",
-    formattedTime: "8:00 PM",
+    formattedTime: "9:00 PM",
   },
 
   venue: {

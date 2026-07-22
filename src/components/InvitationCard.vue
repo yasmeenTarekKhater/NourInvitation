@@ -12,7 +12,7 @@ defineExpose({ cardRef });
     <div class="card-content">
       <p class="intro">{{ invitationConfig.messages.introduction }}</p>
       
-      <div class="couple-names cursive">
+      <div class="couple-names">
         <span>{{ invitationConfig.couple.groomName }}</span>
         <span class="ampersand">&</span>
         <span>{{ invitationConfig.couple.brideName }}</span>
@@ -76,7 +76,7 @@ defineExpose({ cardRef });
 }
 
 .couple-names {
-  font-size: 3.5rem;
+  font-size: 2.7rem;
   line-height: 1.2;
   color: var(--color-gold);
   display: flex;
